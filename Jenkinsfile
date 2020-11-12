@@ -1,5 +1,5 @@
 stage('build') {
     steps {
-        sh 'python test.py'
+        sh '/usr/bin/python test.py'
     }
 }
